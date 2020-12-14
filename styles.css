@@ -1,0 +1,29 @@
+body { background-color: powderblue; font-size: 1.1em;}
+
+h1 {  color: blue; text-align:center;}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+p {font-family: Verdana  color: red; word-spacing: 5px;}
+ul {  list-style: square ;}
+img {  border: 2px solid #0fff; }
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+  }
+}
